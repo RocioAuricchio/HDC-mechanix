@@ -1,0 +1,39 @@
+/* EMPIEZA NAV */
+#botonera img{
+    width: 200px;
+}
+
+nav{
+    position: sticky;
+    font-family: $font-roboto;
+    font-size: 1.7em;
+        & ul {
+            list-style: none;
+            text-decoration: none;
+        }
+            ul{
+                list-style: none;
+                text-decoration: none;
+            }
+                nav ul li {
+                    list-style: none;
+                    text-decoration: none;
+                }
+                    & a{
+                        color: $color-black;
+                        font-family:$font-roboto;
+                        text-align: end;
+                    }
+                        a:hover{
+                            color: $color-red;
+                            cursor: pointer;
+                        }
+                            a {
+                                color: $color-red;
+                                cursor: pointer;
+                                color: $color-redDark;
+                                text-decoration: none;
+                            }
+}
+
+/* TERMINA NAV */

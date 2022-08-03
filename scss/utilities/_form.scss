@@ -1,0 +1,17 @@
+/* EMPIEZA FORM */
+.bgForm{
+    background: url(../img/bgForm.png);
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ 
+ .bgFormDegrade{
+     color: $color-black;
+     background: linear-gradient(to right, $color-red, $color-grayLight);
+ 
+ }
+ 
+ /* TERMINA FORM */
+ 
+ 

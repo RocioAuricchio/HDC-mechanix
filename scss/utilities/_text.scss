@@ -1,0 +1,88 @@
+/* TEXTOS */
+.tituloPrincipal {
+    color: $color-red;
+    font-family: $font-roboto;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 1rem;
+}
+h1 {
+    color: $color-red;
+    font-family: $font-roboto;
+    text-align: center;
+    font-size: 3em;
+    line-height: 3rem;
+}
+h2 {
+    font-family: $font-roboto;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 100;
+    height: auto;
+}
+
+h3 {
+    color: $color-white;
+    font-size: 2em;
+    font-family: $font-roboto;
+    text-align: center;
+    line-height: 1.4em;
+    height: auto;
+    background-color: $color-red;
+}
+
+h4 {
+    font-size: 1.8em;
+    font-family: $font-roboto;
+    text-align: center;
+    line-height: 1.8rem;
+    font-weight: 100;
+    
+}
+.textH2 {
+    font-family: $font-roboto;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1rem;
+    font-weight: 300;
+    padding: 2rem;
+    background-color:$color-red;
+    color: $color-white;
+}
+.textH3 {
+    font-size: 2em;
+    font-family: $font-roboto;
+    text-align: center;
+    line-height: 2.2rem;
+    height: auto;
+    padding: 0.2rem;
+}
+.textH4 {
+    font-size: 1.4rem;
+    font-family: $font-roboto;
+    line-height: 1.6rem;
+    font-weight: 100;
+    background-color: $color-grayLight
+    /* padding: 1rem */;
+}
+.textCenter {
+    text-align: center;
+}
+/* TERMINA TEXTOS */
+a{
+    color: $color-black;
+    font-family:$font-roboto;
+    cursor: pointer;
+}
+    a:hover{
+        color: $color-red;
+        cursor: pointer;
+    }
+        a {
+            color: $color-redDark;
+            cursor: pointer;
+            color: $color-redDark;
+            text-decoration: none;
+        }

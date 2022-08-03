@@ -1,0 +1,17 @@
+/* ANIMACION EN H1 */
+h1{
+    animation-duration:2s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    
+
+    @keyframes animacion{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+/*TERMINA ANIMACION EN H1*/

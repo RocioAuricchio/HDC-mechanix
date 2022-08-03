@@ -1,0 +1,6 @@
+cambios
+revision de orden de h1,h2,h3
+title cambiados en cada pagina
+alt en cada imagen
+cambio div por section o article
+agregue meta description en cada pagina

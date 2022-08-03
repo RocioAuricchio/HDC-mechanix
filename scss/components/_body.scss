@@ -1,0 +1,20 @@
+body{
+    font-family: $font-roboto;
+}
+
+
+ul li a{
+    color: $color-black;
+    font-family:$font-roboto;
+    cursor: pointer;
+}
+    a:hover{
+        color: $color-red;
+        cursor: pointer;
+    }
+        a {
+            color: $color-redDark;
+            cursor: pointer;
+            color: $color-redDark;
+            text-decoration: none;
+        }
