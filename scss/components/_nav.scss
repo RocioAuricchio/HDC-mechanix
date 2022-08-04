@@ -25,13 +25,13 @@ nav{
                         text-align: end;
                     }
                         a:hover{
-                            color: $color-red;
+                            color: map-get($map: $paletaRed , $key:light );
                             cursor: pointer;
                         }
                             a {
-                                color: $color-red;
+                                color: map-get($map: $paletaRed , $key:light );
                                 cursor: pointer;
-                                color: $color-redDark;
+                                color: map-get($map: $paletaRed , $key:dark );
                                 text-decoration: none;
                             }
 }

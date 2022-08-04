@@ -9,12 +9,12 @@ ul li a{
     cursor: pointer;
 }
     a:hover{
-        color: $color-red;
+        color: map-get($map: $paletaRed , $key:light );
         cursor: pointer;
     }
         a {
-            color: $color-redDark;
+            color: map-get($map: $paletaRed , $key:dark );
             cursor: pointer;
-            color: $color-redDark;
+            color: map-get($map: $paletaRed , $key:dark );
             text-decoration: none;
         }

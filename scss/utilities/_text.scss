@@ -1,69 +1,60 @@
 /* TEXTOS */
 .tituloPrincipal {
-    color: $color-red;
+    @include texts(2.5rem, 300, 3rem);
+    color: map-get($map: $paletaRed , $key:light );
     font-family: $font-roboto;
     text-align: center;
-    font-size: 2.5rem;
-    line-height: 3rem;
     padding: 1rem;
 }
 h1 {
-    color: $color-red;
+    @include texts(3em, 100, 3rem);
+    color: map-get($map: $paletaRed , $key:light );
     font-family: $font-roboto;
     text-align: center;
-    font-size: 3em;
-    line-height: 3rem;
 }
 h2 {
+    @include texts(2em, 100, 1.4rem);
+    color: $color-black;
     font-family: $font-roboto;
     text-align: center;
-    font-size: 2em;
-    line-height: 1.4em;
-    font-weight: 100;
     height: auto;
 }
 
 h3 {
+    @include texts(2em, 100, 1.4rem);
     color: $color-white;
-    font-size: 2em;
     font-family: $font-roboto;
     text-align: center;
-    line-height: 1.4em;
     height: auto;
     background-color: $color-red;
 }
 
 h4 {
-    font-size: 1.8em;
+    @include texts(1.8rem, 100, 1.8rem);
+    color: $color-black;
     font-family: $font-roboto;
     text-align: center;
-    line-height: 1.8rem;
-    font-weight: 100;
-    
 }
 .textH2 {
+    @include texts(2em, 300, 1rem);
+    color: $color-white;
     font-family: $font-roboto;
     text-align: center;
-    font-size: 2em;
-    line-height: 1rem;
-    font-weight: 300;
     padding: 2rem;
     background-color:$color-red;
-    color: $color-white;
 }
 .textH3 {
-    font-size: 2em;
+    @include texts(2em, 100, 2.2rem);
+    color: $color-black;
     font-family: $font-roboto;
     text-align: center;
-    line-height: 2.2rem;
     height: auto;
     padding: 0.2rem;
 }
 .textH4 {
-    font-size: 1.4rem;
+    @include texts(1.4em, 100, 1.6rem);
+    color: $color-black;
     font-family: $font-roboto;
-    line-height: 1.6rem;
-    font-weight: 100;
     background-color: $color-grayLight
     /* padding: 1rem */;
 }
@@ -77,12 +68,12 @@ a{
     cursor: pointer;
 }
     a:hover{
-        color: $color-red;
+        color: map-get($map: $paletaRed , $key:light );
         cursor: pointer;
     }
         a {
-            color: $color-redDark;
+            color: map-get($map: $paletaRed , $key:dark );
             cursor: pointer;
-            color: $color-redDark;
+            color: map-get($map: $paletaRed , $key:dark );
             text-decoration: none;
         }

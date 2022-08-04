@@ -1,14 +1,26 @@
 
 //COLORS//
-$color-red: #af0a0a;
-$color-redDark:rgb(111, 5, 5);
 $color-beige: #f5f5dc;
 $color-gray: rgba(155, 155, 155, 0.525);
 $color-grayLight: rgba(194, 191, 191, 0.849);
 $color-black: #000000;
 $color-white: rgb(255, 255, 255);
 
+//mapas
+$paletaRed:(
+    'dark':rgb(111, 5, 5),
+    'light':#af0a0a,
+);
 
 //FONTS//
 $font-roboto:'Roboto', sans-serif;
+
+//EXTENDS EN _FOOTER.SCSS
+
+
 //mixin//
+@mixin texts ($fontSize, $fontWeight,$lineHeight) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;   
+}

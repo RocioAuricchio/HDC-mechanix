@@ -4,3 +4,6 @@ title cambiados en cada pagina
 alt en cada imagen
 cambio div por section o article
 agregue meta description en cada pagina
+
+
+EXTENDS EN _FOOTER.SCSS
