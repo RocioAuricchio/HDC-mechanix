@@ -8,7 +8,7 @@
  
  .bgFormDegrade{
      color: $color-black;
-     background: linear-gradient(to right, $color-red, $color-grayLight);
+     background: linear-gradient(to right, map-get($map: $paletaRed , $key:light ), $color-grayLight);
  
  }
  
