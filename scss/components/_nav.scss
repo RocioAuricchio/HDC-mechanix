@@ -23,13 +23,14 @@ nav{
                         color: $color-black;
                         font-family:$font-roboto;
                         text-align: end;
+                        cursor: pointer;
                     }
                         a:hover{
                             color: map-get($map: $paletaRed , $key:light );
                             cursor: pointer;
                         }
                             a {
-                                color: map-get($map: $paletaRed , $key:light );
+                                color: map-get($map: $paletaRed , $key:dark );
                                 cursor: pointer;
                                 color: map-get($map: $paletaRed , $key:dark );
                                 text-decoration: none;

@@ -13,7 +13,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <!-- mi css  -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 
 <body class="bodyContacto bgForm">
@@ -60,35 +60,34 @@
      <main class="bgForm">
         <h1 class="bgFormDegrade">
             CONTACTO
-        </h1>        
-        <!-- empieza form -->
-        <form class="textCenter blockCentrado" action="envio.php">
-            <article class="formName">
-                <label for="name" class="form__label1">Nombre y apellido</label>
-                <input type="text" id="name" class="form__imput1" placeholder=" ">
-            </article>
-
-            <article class="formCorreo">
-                <label for="correo" class="form__label2">Email</label>
-                <input type="email" id="correo" class="form__imput2" placeholder=" ">
-            </article>
-
-            <article class="formTel">
-                <label for="tel" class="form__label3">Celular/Telefono</label>
-                <input type="number" id="tel" class="form__imput3" placeholder=" ">
-            </article>
-
-            <article class="formComentario">
-                <label for="comentario" class="form__label4">Consulta o comentario</label>
-                <textarea name="" id="comentario" cols="30" rows="10"></textarea>
-            </article>
-              
-            <article>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-            </article>
-        </form>
-        <!-- termina form -->
+        </h1> 
+        <h2>Para cualquier información o contacto llame al 15-xxxx-xxxx
+        </h2>       
+      <!--Empieza form  -->
+      <form class="form">
+        <section class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <article id="emailHelp" class="form-text">Su mail no va a ser compartido con nadie.</article>
+        </section>
+        <section class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+        </section>
+        <section class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Número de Celular</label>
+            <input type="tel" class="form-control" id="exampleInputPassword1">
+        </section>
+        <section class="mb-3">
+            <label for="comentario" class="form__label4">Consulta o comentario</label>
+            <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+        </section>
+        <section class="mb-3 btn btnRed">
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Enviar">
+        </section>
+    </form>
+      <!-- termina form -->
  
     </main>
 <!-- termina main -->

@@ -39,6 +39,7 @@ h3 {
   text-align: center;
   height: auto;
   background-color: #af0a0a;
+  padding: 1em;
 }
 
 h4 {
@@ -104,7 +105,28 @@ a {
   text-decoration: none;
 }
 
+/** MEDIA **/
+@media (max-width: 428px) {
+  .tituloPrincipal {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+  h3 {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1rem;
+  }
+}
 /* para reciclar */
+.wImage {
+  width: 50%;
+  align-content: center;
+  height: 50%;
+  align-items: center;
+  margin: 1rem 10rem;
+}
+
 .centrado {
   text-align: center;
   align-items: center;
@@ -244,24 +266,17 @@ main {
 
 /* TERMINA MAIN */
 /* EMPIEZA FOOTER */
-a {
-  list-style: none;
-}
-
 ul {
-  text-decoration: none;
+  list-style: none;
 }
 
 footer {
   background-color: rgba(155, 155, 155, 0.525);
-  list-style: none;
   text-decoration: none;
   padding: auto;
 }
 
 .pieRedes {
-  list-style: none;
-  text-decoration: none;
   text-align: center;
   padding-top: 1em;
 }
@@ -271,8 +286,6 @@ footer {
   font-weight: 100;
   text-align: center;
   padding: 0.8em;
-  list-style: none;
-  text-decoration: none;
 }
 
 .ubicacionPie {

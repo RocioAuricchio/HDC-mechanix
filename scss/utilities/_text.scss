@@ -13,11 +13,12 @@ h1 {
     text-align: center;
 }
 h2 {
-    @include texts(2em, 100, 1.4rem);
+    @include texts(2em, 100, 1em);
     color: $color-black;
     font-family: $font-roboto;
     text-align: center;
     height: auto;
+    margin-top: 1em;
 }
 
 h3 {

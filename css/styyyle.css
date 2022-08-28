@@ -23,12 +23,11 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 100;
-  line-height: 1em;
+  line-height: 1.4rem;
   color: #000000;
   font-family: "Roboto", sans-serif;
   text-align: center;
   height: auto;
-  margin-top: 1em;
 }
 
 h3 {
@@ -40,7 +39,6 @@ h3 {
   text-align: center;
   height: auto;
   background-color: #af0a0a;
-  padding: 1em;
 }
 
 h4 {
@@ -106,28 +104,7 @@ a {
   text-decoration: none;
 }
 
-/** MEDIA **/
-@media (max-width: 428px) {
-  .tituloPrincipal {
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 2rem;
-  }
-  h3 {
-    font-size: 1em;
-    font-weight: 100;
-    line-height: 1rem;
-  }
-}
 /* para reciclar */
-.wImage {
-  width: 60%;
-  align-content: center;
-  height: 50%;
-  align-items: center;
-  margin: 1rem 10rem;
-}
-
 .centrado {
   text-align: center;
   align-items: center;
@@ -146,16 +123,6 @@ a {
   background: linear-gradient(to right, #af0a0a, rgba(194, 191, 191, 0.849));
 }
 
-.form {
-  margin: 0.8rem;
-  color: #000000;
-  font-family: "Roboto", sans-serif;
-}
-
-.btnRed {
-  background: #af0a0a;
-}
-
 /* TERMINA FORM */
 /* bg */
 .bgNav {
@@ -169,8 +136,6 @@ a {
 .bordeBlanco {
   border: solid #f5f5dc 1em;
   background-color: rgba(194, 191, 191, 0.849);
-  margin: 0;
-  padding: 0;
 }
 
 /* termina bg */
@@ -250,14 +215,13 @@ nav a {
   color: #000000;
   font-family: "Roboto", sans-serif;
   text-align: end;
-  cursor: pointer;
 }
 nav a:hover {
   color: #af0a0a;
   cursor: pointer;
 }
 nav a {
-  color: rgb(111, 5, 5);
+  color: #af0a0a;
   cursor: pointer;
   color: rgb(111, 5, 5);
   text-decoration: none;
@@ -280,17 +244,24 @@ main {
 
 /* TERMINA MAIN */
 /* EMPIEZA FOOTER */
-ul {
+a {
   list-style: none;
+}
+
+ul {
+  text-decoration: none;
 }
 
 footer {
   background-color: rgba(155, 155, 155, 0.525);
+  list-style: none;
   text-decoration: none;
   padding: auto;
 }
 
 .pieRedes {
+  list-style: none;
+  text-decoration: none;
   text-align: center;
   padding-top: 1em;
 }
@@ -300,6 +271,8 @@ footer {
   font-weight: 100;
   text-align: center;
   padding: 0.8em;
+  list-style: none;
+  text-decoration: none;
 }
 
 .ubicacionPie {
